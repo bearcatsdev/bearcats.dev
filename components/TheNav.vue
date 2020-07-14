@@ -14,13 +14,16 @@
             >
           </li>
           <li>
-            <nuxt-link class="nuxt-link" active-class="active" to="/projects"
-              >Projects</nuxt-link
+            <nuxt-link class="nuxt-link" active-class="active" to="/innovations"
+              >Innovations</nuxt-link
             >
           </li>
           <li>
-            <nuxt-link class="nuxt-link" active-class="active" to="/blog"
-              >Blog</nuxt-link
+            <nuxt-link
+              class="nuxt-link"
+              active-class="active"
+              to="/publications"
+              >Publications</nuxt-link
             >
           </li>
         </ul>
@@ -46,7 +49,7 @@ nav > ul > li {
   @apply inline float-left px-4;
 }
 .nuxt-link {
-  @apply no-underline text-black flex flex-col items-center uppercase font-display transition duration-500 ease-in-out;
+  @apply no-underline text-gray-600 flex flex-col items-center uppercase font-display transition duration-500 ease-in-out;
 }
 .nuxt-link:hover {
   @apply text-primary;
