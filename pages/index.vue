@@ -53,6 +53,30 @@
           />
         </div>
       </div>
+
+      <!-- Tamago -->
+      <div class="split-half">
+        <div class="content">
+          <img
+            class="logo"
+            src="../assets/img/tamago-logo.png"
+            alt="Adab logo"
+          />
+          <h2>Tamago</h2>
+          <p class="text-lg">
+            Tamago is a digital penny bank app, designed for young parents to
+            teach their kids how to save money in a fun and interactive way.
+          </p>
+          <div>Read more</div>
+        </div>
+        <div class="content">
+          <img
+            class="w-full ml-12 rounded-lg"
+            src="../assets/img/tamago.jpg"
+            alt="Adab"
+          />
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -82,6 +106,6 @@ p {
   @apply w-full;
 }
 .split-half > .content > .logo {
-  @apply h-16 pb-4;
+  @apply h-24 w-24 object-contain rounded-lg my-4;
 }
 </style>
