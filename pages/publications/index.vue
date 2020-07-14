@@ -2,7 +2,7 @@
   <div class="body container mx-auto">
     <h1>Blog Posts</h1>
     <ul>
-      <div class="grid grid-cols-3 gap-6">
+      <div class="grid grid-cols-3 gap-2">
         <li v-for="article of articles" :key="article.slug">
           <NuxtLink
             class="article-link"
@@ -45,7 +45,11 @@ export default {
 }
 
 li {
-  @apply my-8;
+  @apply my-8 px-6 transition duration-500 ease-in-out;
+}
+
+li:hover {
+  @apply transform scale-105 shadow-lg;
 }
 
 .article-image {
