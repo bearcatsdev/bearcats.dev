@@ -46,10 +46,13 @@ nav > ul > li {
   @apply inline float-left px-4;
 }
 .nuxt-link {
-  @apply no-underline text-black flex flex-col items-center uppercase font-display;
+  @apply no-underline text-black flex flex-col items-center uppercase font-display transition duration-500 ease-in-out;
+}
+.nuxt-link:hover {
+  @apply text-primary;
 }
 .active {
-  @apply text-primary font-bold;
+  @apply text-primary;
 }
 .branding {
   @apply h-full py-2;
