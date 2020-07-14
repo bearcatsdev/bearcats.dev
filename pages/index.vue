@@ -74,7 +74,7 @@
             <img
               class="w-full ml-12 rounded-lg"
               src="../assets/img/tamago.png"
-              alt="Adab"
+              alt="Tamago"
             />
           </div>
         </div>
