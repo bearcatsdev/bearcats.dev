@@ -1,4 +1,4 @@
 # bearcats.dev
 
 > "The most generic web I've ever seen."
-> - Brian, 2020
+> — Brian, 2020
