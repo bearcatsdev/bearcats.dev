@@ -31,5 +31,9 @@ h5 {
 }
 
 a {
-  @apply text-blue-600 underline;
+  @apply text-primary border-b border-transparent transition duration-500 ease-in-out;
+}
+
+a:hover {
+  @apply transform border-primary;
 }
