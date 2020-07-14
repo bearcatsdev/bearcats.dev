@@ -66,7 +66,7 @@ export default {
 <style>
 .hero {
   height: 75vh;
-  background: url('../assets/img/hero-bearcats.jpg') no-repeat;
+  background: url('../assets/img/hero-bearcats.jpeg') no-repeat;
   background-size: cover;
 }
 .body {
