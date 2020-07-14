@@ -15,8 +15,8 @@ module.exports = {
       },
     },
     fontFamily: {
-      display: 'Montserrat',
-      body: 'Inter',
+      display: 'Inter',
+      body: 'Karla',
     },
   },
   variants: {},
