@@ -1,7 +1,13 @@
 @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  @apply font-body;
+}
 
 h1, h2, h3, h4, h5, h6 {
-  @apply font-bold;
+  @apply font-bold font-display;
 }
 
 h1 {
@@ -27,6 +33,3 @@ h5 {
 a {
   @apply text-blue-600 underline;
 }
-
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';

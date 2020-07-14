@@ -5,7 +5,20 @@
  ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
 module.exports = {
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        primary: '#408EFC',
+      },
+      spacing: {
+        navbar: '6rem',
+      },
+    },
+    fontFamily: {
+      display: 'Montserrat',
+      body: 'Inter',
+    },
+  },
   variants: {},
   plugins: [],
   purge: {
