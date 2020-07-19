@@ -96,6 +96,18 @@ export default {
       hey,
     }
   },
+  head() {
+    return {
+      title: 'Bearcats Developer Team',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'index',
+          name: 'index',
+        },
+      ],
+    }
+  },
 }
 </script>
 

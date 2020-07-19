@@ -20,6 +20,16 @@ export default {
 
     return { article }
   },
+  head() {
+    return {
+      title: `${this.article.title} - Bearcats Developer Team`,
+      meta: [
+        {
+          content: this.article.description,
+        },
+      ],
+    }
+  },
 }
 </script>
 
